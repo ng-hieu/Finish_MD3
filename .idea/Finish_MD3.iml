@@ -8,5 +8,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="TongHopMD3(31-3)" />
+    <orderEntry type="module" module-name="CRUDvaRouter(Linh)" />
   </component>
 </module>

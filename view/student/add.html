@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Thêm học viên</title>
+</head>
+<style>
+    div{
+        width: 300px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+</style>
+<body>
+<center><h1>THÊM HỌC VIÊN</h1></center>
+<form method="post">
+    <div>
+        <table>
+            <tr>
+                <td>Tên</td>
+                <td>
+                    <input type="text" name="name_Student" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Lớp</td>
+                <td>
+                    <select name="idClass" required>
+                        {class}
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Điểm thực hành</td>
+                <td>
+                    <input type="text" name="theoretical_Point" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Điểm lý thuyết</td>
+                <td>
+                    <input type="text" name="pratical_Point" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Đánh giá</td>
+                <td>
+                    <input type="text" name="comment" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Mô tả</td>
+                <td>
+                    <input type="text" name="description" required>
+                </td>
+            </tr>
+        </table>
+        <button type="submit">Nhập</button>
+        <button type="submit"><a href="/home">Thoát</a></button>
+    </div>
+</form>
+</body>
+</html>
